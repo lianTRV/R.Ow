@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+/*Fuente Rick Owens menu*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS SHOP.HTML */
+
+.body-shopman {
+    width: 100%;
+  }
+  
+  .menu {
+    background-color: #d5d5d5;
+    color: #f3f3f3;
+  }
+  
+  .menu h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .menu h1 a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+  
+  .menu h1 a:hover {
+    color: rgb(54, 54, 54);
+    transition: 0.6s;
+  }
+  
+  .menu ul {
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .menu li a {
+    color: #0c0c0c;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.6s;
+  }
+  
+  .menu li a:hover {
+    background-color: #2a2a33;
+    transition: 0.6s;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .contenedor-shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .elemento {
+    margin: 30px;
+  }
+  
+  .elemento p {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .elemento:hover {
+    opacity: 0.9;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  footer {
+    font-family: "Playfair Display", serif;
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container-uno-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .container-dos-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  
+  .segundo-container-footer a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .segundo-container-footer a:hover {
+    color: #2a2a33;
+    transition: 1s;
+  }
+  
+  .segundo-container-footer p {
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  .container-tres-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container-tres-footer a{
+    color: white;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    transition: 0.5s;
+  }
+  
+  .container-tres-footer a:hover{
+    color: rgb(54, 54, 54);
+    transition: 0.5s;
+  }
+  

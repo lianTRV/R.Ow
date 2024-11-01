@@ -1,0 +1,1 @@
+Sitio web de Rick Owens, dedicado a venta de indumentaria.

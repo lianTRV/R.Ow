@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+/*Fuente Rick Owens menu*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* ------------------------------------------------------------------------------ */
+/* CSS ABOUTUS.HTML */
+
+.body-aboutus {
+    background-color: #0b0b0b;
+    height: auto;
+    width: 100%;
+  }
+  
+  .header-aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(#ffffff, #0a0a0a);
+    text-align: center;
+  }
+  
+  .logo {
+    height: 350px;
+    transition: 1.5s;
+  }
+  
+  .logo:hover {
+    opacity: 0;
+    transition: 1.5s;
+  }
+  
+  .container-quienes-somos {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    color: #aaaaaa;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    padding-top: 20px;
+  }
+  
+  .container-img-rickow {
+    grid-column-start: 1/2;
+  }
+  
+  .rick-ow {
+    height: 700px;
+    position: relative;
+  }
+  
+  .titulo-quienes-somos {
+    font-size: xxx-large;
+    margin-bottom: 20px;
+  }
+  .p-quienes-somos {
+    grid-column-start: span 2;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .parrafo {
+    font-size: x-large;
+    padding: 5px 0;
+  }
+  
+  .boton-home {
+    position: relative;
+    color: #9f9fb3;
+    font-family: "Oswald", sans-serif;
+    top: 1.5rem;
+    text-decoration: none;
+    transition: 1.2s;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: x-large;
+    margin: 10px;
+  }
+  
+  .boton-home:hover {
+    background-color: #f3f3f3;
+    transition: 0.4s;
+    color: #070707;
+    padding: 6px;
+  }
+  
+  footer {
+    font-family: "Playfair Display", serif;
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container-uno-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .container-dos-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  
+  .segundo-container-footer a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .segundo-container-footer a:hover {
+    color: #2a2a33;
+    transition: 1s;
+  }
+  
+  .segundo-container-footer p {
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  .container-tres-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container-tres-footer a{
+    color: white;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    transition: 0.5s;
+  }
+  
+  .container-tres-footer a:hover{
+    color: rgb(54, 54, 54);
+    transition: 0.5s;
+  }
+  
+  @media (max-width: 442px) {
+    .logo {
+      transition: 1.5s;
+      width: 320px;
+    }
+  
+    .container-quienes-somos {
+      display: grid;
+      color: #aaaaaa;
+      width: 100%;
+      font-family: "Oswald", sans-serif;
+      padding: 20px;
+    }
+  
+    .container-img-rickow {
+      display: none;
+    }
+  
+    .p-quienes-somos {
+      grid-column-start: span 3;
+      height: 100%;
+      margin-bottom: 0;
+    }
+  
+    .titulo-quienes-somos {
+      font-size: xx-large;
+      margin-bottom: 20px;
+    }
+    .parrafo {
+      font-size: larger;
+      padding: 5px 0;
+    }
+  
+    .footer-aboutus {
+      margin-top: 5em;
+    }
+  }
+  
+  @media (min-width: 443px) and (max-width: 948px) {
+    .logo {
+      transition: 1.5s;
+      width: 320px;
+    }
+  
+    .container-quienes-somos {
+      display: grid;
+      color: #aaaaaa;
+      width: 100%;
+      font-family: "Oswald", sans-serif;
+      padding: 20px;
+      align-items: center;
+    }
+  
+    .container-img-rickow {
+      display: none;
+    }
+  
+    .p-quienes-somos {
+      grid-column-start: span 3;
+    }
+  }

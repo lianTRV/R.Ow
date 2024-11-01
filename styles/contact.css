@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+/*Fuente Rick Owens menu*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS CONTACT.HTML */
+
+.body-contact {
+    background-color: #0a0a0a;
+  }
+
+.menu {
+    background-color: #030303;
+    color: #f3f3f3;
+  }
+  
+  .menu h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .menu h1 a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+  
+  .menu h1 a:hover {
+    color: rgb(54, 54, 54);
+    transition: 0.6s;
+  }
+  
+  .menu ul {
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .menu li a {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.6s;
+  }
+  
+  .menu li a:hover {
+    background-color: #2a2a33;
+    transition: 0.6s;
+    border-radius: 4px;
+  }
+
+.body-contact {
+    background-color: #0a0a0a;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .form-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+  }
+  
+  .form-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    width: 90%;
+    padding: 10px;
+    margin:2em;
+  }
+  .div {
+    display: flex;
+    width: 90%;
+    margin-left: 10px;
+    flex-direction: column;
+  }
+  
+  .label-form {
+    display: flex;
+    align-items: start;
+    margin-left: 10px;
+  }
+  
+  .label-sexo {
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .div-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  
+  .div-other-gen {
+    display: none;
+  }
+  
+  form label {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  .input-form {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+  }
+  
+  .input-form-especify {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+  }
+  
+  .textarea-form {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 3px;
+    display: none;
+  }
+  
+  .button-form {
+    width: 100%;
+    height: 3em;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    transition: 1.2s;
+    border-radius: 10px;
+  }
+  
+  .contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 34%;
+  }
+  
+  @media (max-width: 768px) {
+    .form-contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(3, 3, 3);
+      width: 250px;
+    }
+  
+    .button-form {
+      width: 100%;
+      height: 3em;
+      font-family: "Oswald", sans-serif;
+      text-decoration: none;
+      transition: 1.2s;
+      border-radius: 10px;
+    }
+  }
+  
+  footer {
+    font-family: "Playfair Display", serif;
+    background-color: #000000;
+    color: white;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .container-uno-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .container-dos-footer p {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  
+  .segundo-container-footer a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .segundo-container-footer a:hover {
+    color: #2a2a33;
+    transition: 1s;
+  }
+  
+  .segundo-container-footer p {
+    display: inline-block;
+    font-size: 15px;
+  }
+  
+  .container-tres-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container-tres-footer a{
+    color: white;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    transition: 0.5s;
+  }
+  
+  .container-tres-footer a:hover{
+    color: rgb(54, 54, 54);
+    transition: 0.5s;
+  }
+  
